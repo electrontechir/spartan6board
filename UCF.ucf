@@ -1,0 +1,101 @@
+	NET "in_CLK" LOC = P56 | TNM_NET = sys_clk_pin;
+	TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+	
+	# Digital to Analog Converters
+	NET "DAC_1[0]"  LOC = P138;
+	NET "DAC_1[1]"  LOC = P139;
+	NET "DAC_1[2]"  LOC = P140;
+	NET "DAC_1[3]"  LOC = P141;
+	NET "DAC_1[4]"  LOC = P142;
+	NET "DAC_1[5]"  LOC = P143;
+	NET "DAC_1[6]"  LOC = P144;
+	NET "DAC_1[7]"  LOC = P1;
+	
+	NET "DAC_2[0]"  LOC = P2;
+	NET "DAC_2[1]"  LOC = P5;
+	NET "DAC_2[2]"  LOC = P6;
+	NET "DAC_2[3]"  LOC = P7;
+	NET "DAC_2[4]"  LOC = P8;
+	NET "DAC_2[5]"  LOC = P9;
+	NET "DAC_2[6]"  LOC = P10;
+	NET "DAC_2[7]"  LOC = P11;
+	
+	# LEDs
+	NET "led_1"  LOC = P66;
+	NET "led_2"  LOC = P67;
+	NET "led_3"  LOC = P74;
+	NET "led_4"  LOC = P75;
+	
+	# Switches
+	NET "switch_1"  LOC = P59 | PULLUP;
+	NET "switch_2"  LOC = P61 | PULLUP;
+	NET "switch_3"  LOC = P62 | PULLUP;
+ 
+	# 7 segment display
+	NET "o_Display[0]"  LOC = P134;
+	NET "o_Display[1]"  LOC = P120;
+	NET "o_Display[2]"  LOC = P123;
+	NET "o_Segment[6]"  LOC = P121;
+	NET "o_Segment[5]"  LOC = P132;
+	NET "o_Segment[4]"  LOC = P137;
+	NET "o_Segment[3]"  LOC = P131;
+	NET "o_Segment[2]"  LOC = P126;
+	NET "o_Segment[1]"  LOC = P124;
+	NET "o_Segment[0]"  LOC = P133;
+	
+	# ADC
+	NET "CLK_ADC1"  LOC = "P105";
+	NET "MISO_ADC1"  LOC = "P104";
+	NET "CS_ADC1"    LOC = "P102";
+
+	NET "CLK_ADC2"  LOC = "P101";
+	NET "MISO_ADC2"  LOC = "P100";
+	NET "CS_ADC2"    LOC = "P99";
+	
+	# GPIO Right
+	NET "pin118"  LOC = P118;
+	NET "pin119"  LOC = P119;
+	NET "pin116"  LOC = P116;
+	NET "pin117"  LOC = P117;
+	NET "pin114"  LOC = P114;
+	NET "pin115"  LOC = P115;
+	NET "pin111"  LOC = P111;
+	NET "pin112"  LOC = P112;
+	NET "pin97"  LOC = P97;
+	NET "pin98"  LOC = P98;
+	NET "pin94"  LOC = P94;
+	NET "pin95"  LOC = P95;
+	NET "pin92"  LOC = P92;
+	NET "pin93"  LOC = P93;
+	NET "pin87"  LOC = P87;
+	NET "pin88"  LOC = P88;
+	NET "pin84"  LOC = P84;
+	NET "pin85"  LOC = P85;
+	NET "pin82"  LOC = P82;
+	NET "pin83"  LOC = P83;
+	NET "pin80"  LOC = P80;
+	NET "pin81"  LOC = P81;
+	
+	# GPIO Left
+	NET "pin14"  LOC = P14;
+	NET "pin12"  LOC = P12;
+	NET "pin16"  LOC = P16;
+	NET "pin15"  LOC = P15;
+	NET "pin21"  LOC = P21;
+	NET "pin17"  LOC = P17;
+	NET "pin23"  LOC = P23;
+	NET "pin22"  LOC = P22;
+	NET "pin26"  LOC = P26;
+	NET "pin24"  LOC = P24;
+	NET "pin29"  LOC = P29;
+	NET "pin27"  LOC = P27;
+	NET "pin32"  LOC = P32;
+	NET "pin30"  LOC = P30;
+	NET "pin34"  LOC = P34;
+	NET "pin33"  LOC = P33;
+	NET "pin40"  LOC = P40;
+	NET "pin35"  LOC = P35;
+	NET "pin43"  LOC = P43;
+	NET "pin41"  LOC = P41;
+	NET "pin45"  LOC = P45;
+	NET "pin44"  LOC = P44;
