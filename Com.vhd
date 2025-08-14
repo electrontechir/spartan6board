@@ -122,24 +122,4 @@ begin
 		DAC_1 <= ADC_1(11 DOWNTO 4);
 		DAC_2 <= ADC_1(11 DOWNTO 4);
 
---	dds1 : entity work.dds1
---	  port map (
---		 clk => s_clk50,
---		 sine => sine1); 
---
---	dds2 : entity work.dds2
---	  port map (
---		 clk => s_clk50,
---		 sine => sine2);
---
---	offset_adder1 : entity work.offset_adder
---	  port map (
---		 A => sine1,
---		 S => DAC_1);
---		 
---	offset_adder2 : entity work.offset_adder
---	  port map (
---		 A => sine2,
---		 S => DAC_2);
-
 end Behavioral;
